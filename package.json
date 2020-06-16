@@ -12,7 +12,7 @@
     "url": "git+https://github.com/sthnaqvi/knexcache.git"
   },
   "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
+    "registry": "https://npm.pkg.github.com/sthnaqvi" 
   },
   "keywords": [
     "mysql",
