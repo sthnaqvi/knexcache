@@ -1,6 +1,6 @@
 {
   "name": "knexcache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Events and Redis based caching service for Knex, Cache frequently use knex query result in Redis with TTL ",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sthnaqvi/knexcache.git"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   },
   "keywords": [
     "mysql",
