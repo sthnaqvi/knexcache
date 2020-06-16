@@ -1,0 +1,38 @@
+{
+  "name": "knexcache",
+  "version": "1.0.0",
+  "description": "Events and Redis based caching service for Knex, Cache frequently use knex query result in Redis with TTL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sayed Tauseef Naqvi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthnaqvi/knexcache.git"
+  },
+  "keywords": [
+    "mysql",
+    "knex",
+    "redis",
+    "cache",
+    "event",
+    "knexredis",
+    "knexcache"
+  ],
+  "contributors": [
+    {
+      "name": "Sayed Tauseef Naqvi",
+      "email": "tauseef.naqvi786@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthnaqvi/knexcache/issues"
+  },
+  "homepage": "https://github.com/sthnaqvi/knexcache#readme",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "redis": "^3.0.2"
+  }
+}
